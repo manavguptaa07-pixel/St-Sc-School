@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Admissions - St. S.S. Public School</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hind:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main id="top">
+<div class="page-hero"><div class="wrap"><div class="crumbs"><a href="index.html">Home</a> / Admissions</div><h1>Admissions</h1><p>Simple steps to join the St. S.S. Public School family.</p></div></div>
+
+<section><div class="wrap">
+<div class="sec-head"><span class="eyebrow">Admission procedure</span><h2>How to apply</h2><p>Our school office will guide you at every step and confirm dates, fees and seat availability.</p></div>
+<div class="steps">
+<div class="step"><h3>Send an enquiry</h3><p>Fill the form below, call us or message us on WhatsApp.</p></div>
+<div class="step"><h3>Visit the school</h3><p>Meet our team, see the campus and ask your questions.</p></div>
+<div class="step"><h3>Submit documents</h3><p>Complete the admission form with the required documents.</p></div>
+<div class="step"><h3>Confirm admission</h3><p>Pay the fees as advised by the office and start the journey.</p></div>
+</div></div></section>
+
+<section class="stages"><div class="wrap two top">
+<div><span class="eyebrow">Documents</span><h2 class="h2">Keep these ready</h2>
+<ul class="docs"><li>Birth certificate of the child</li><li>Passport-size photographs of the child and parents</li><li>Previous class report card or transfer certificate, if applicable</li><li>Address proof and ID proof of a parent</li></ul>
+<p style="margin-top:1rem;color:var(--muted);font-size:.95rem">The school office will confirm the final list. For fee structure and seat details, please call 89493 74197.</p></div>
+<div id="enquiry"><span class="eyebrow">Online enquiry</span><h2 class="h2">Send your enquiry</h2>
+<form class="f" id="enqForm" novalidate>
+<div class="row"><label for="parent">Parent name<input id="parent" autocomplete="name" placeholder="Your name"></label>
+<label for="child">Child name<input id="child" placeholder="Student name"></label></div>
+<div class="row"><label for="cls">Class applying for<select id="cls"><option>Nursery / Pre-school</option><option>LKG / UKG</option><option>Class 1 to 5</option><option>Class 6 to 8</option><option>Class 9 to 10</option><option>Class 11 to 12</option></select></label>
+<label for="phone">Your phone number<input id="phone" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile"></label></div>
+<label for="msg">Message (optional)<textarea id="msg" placeholder="Anything you would like to ask"></textarea></label>
+<button class="btn btn-pri" type="submit">Prepare my enquiry</button>
+<div class="result" id="result" hidden><a class="btn btn-wa" id="waSend" href="#" target="_blank" rel="noopener">Send on WhatsApp</a><p class="hint" id="hint">Tap the green button to open WhatsApp with your enquiry.</p></div>
+</form></div>
+</div></section>
+</main>
+<div id="site-footer"></div>
+<script src="script.js"></script>
+</body>
+</html>
